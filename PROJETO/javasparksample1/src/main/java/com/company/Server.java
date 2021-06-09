@@ -1,12 +1,6 @@
 package com.company;
-// Java implementation of  Server side
-// It contains two classes : Server and ClientHandler
-// Save file as Server.java
-// COMO LIBERAR A PORTA: netstat -nao | find "5056" -- taskkill /PID 18856 /F
 import java.io.*;
 import java.lang.*;
-import java.text.*;
-import java.util.*;
 import java.net.*;
 // Server class
 public class Server

@@ -33,12 +33,6 @@ class ClientHandlerB extends Thread
         while (count2 < 1)
         {
             try {
-                // Ask user what he wants
-                /*dos.writeUTF("Bem vindo ao servidor 2\n" +
-                        "O formato da operação deve seguir o padrão Operando/Operador/Operando Ex:5^5,10%2.\n"+
-                        "para operações com 1 operando(Raiz Quadrada(!)) deve se usar Operando/Operador Ex: 25!\n"+
-                        "Digite a operacao que deseja fazer:\n"+
-                        "Digite Voltar para desconectar do nosso Servidor ou Exit para sair");*/
 
                 // receive the answer from client
                 received = dis.readUTF();
