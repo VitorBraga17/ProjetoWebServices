@@ -1,7 +1,5 @@
 # ProjetoWebServices
 Projeto da ultima unidade de Sistemas distribuidos.
-
-# ProjetoFinalSistemasDistribuídos
  
 ## Projeto DSCalculator Idealizado Por:
 - Alexandre de Moraes Furtado
