@@ -70,7 +70,6 @@ public class Main {
         post("/raiz", (request, response) -> {
             String a = request.queryParams("num1");
             String c = con(5057,a,"","!");
-            System.out.println((request.queryParams().stream().count()));
             if((request.queryParams().stream().count()>1)){
                 return "Quantidade de Parametros invalida";
             }
