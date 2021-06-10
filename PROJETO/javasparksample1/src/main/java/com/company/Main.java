@@ -108,7 +108,7 @@ public class Main {
             // closing resources
 
             }catch(Exception e){
-                String x = "";
+                String x = "Informe as Chaves e valores Corretamente para a operação(Keys:num1 e num2)";
                 return x;
             }
 
